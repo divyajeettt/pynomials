@@ -17,7 +17,12 @@ To access the help-text of the class to know more about it, run:
 help(pynomials.Polynomial)
 ```
 
-Polynomial objects are simply created using thir coefficients, and can be added/subtracted to get the corresponding Polynomial. They can also be multiplied with a real number or another Polynomial. Polynomials can also be divided by other Polynomials to get the quotient/remainder of the divison, and to get a corresponding Rational Function. Polynomials can also be raised to integer powers, differentiated and integrated.
+### Some features
+
+- Polynomials can be added/subtracted to get the corresponding Polynomial
+- Polynomials can be multiplied with a real number or another Polynomial 
+- Polynomials can also be divided by other Polynomials to get the quotient/remainder of the divison, and to get a corresponding "Rational-Function"
+- Polynomials can also be raised to integer powers, differentiated, and integrated
 
 Users are advised to look at the class' help-text to learn about the available functionalities.
 
