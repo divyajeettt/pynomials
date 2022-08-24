@@ -50,7 +50,7 @@ Additional objects available in the module (except class Polynommial) are not me
 To use, execute:
 
 ```
-pip install pynomials
+pip3 install pynomials
 ```
 
 Import the class `Polynomial` in your project, wherever needed, using:
