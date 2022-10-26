@@ -25,7 +25,7 @@ class Polynomial:
         bool(Polynomial(0)) == False"""
 
 
-    def __init__(self, /, *coefficients: float) -> None:
+    def __init__(self, /, *coefficients: int|float) -> None:
         """initializes Polynomial instance
         last term given to the Polynomial() constructor is taken as the constant
 
@@ -218,7 +218,7 @@ class Polynomial:
         return self + (-other)
 
 
-    def __mul__(self, other: float|'Polynomial', /) -> 'Polynomial':
+    def __mul__(self, other: int|float|'Polynomial', /) -> 'Polynomial':
         """multiply Polynomial Objects using '*' operator
         other can also be a number by which all components of the Polynomial
         will be multipled
