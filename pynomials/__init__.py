@@ -360,7 +360,7 @@ class Polynomial:
 
     @staticmethod
     def plot_polynomials(
-            *polynomials: 'Polynomials', show_legend: bool|None = True
+            *polynomials: 'Polynomials', show_legend: bool|None = True,
             limits: tuple[float]|None = (-100.0, 100.0),
         ) -> None:
         """plots all given Polynomials in the same graph
